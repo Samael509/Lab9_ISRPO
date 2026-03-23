@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+/* широкий экран */
+@media (min-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+/* диапазон */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* mobile first подход (от меньшего к большему) */
+/* базовые стили для мобилок */
+.container {
+    padding: 10px;
+}
+
+/* small device */
+@media (min-width: 576px) {
+    .container {
+        padding: 15px;
+    }
+}
+/* medium device */
+@media (min-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+}
+/* large device */
+@media (min-width: 992px) {
+    .container {
+        padding: 25px;
+    }
+}
+
+/* extra large device */
+@media (min-width: 1200px) {
+    .container {
+        padding: 30px;
+    }
+}
