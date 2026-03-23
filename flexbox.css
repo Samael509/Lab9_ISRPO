@@ -1,4 +1,4 @@
-/* Общие стили для тела страницы */
+/* сделал подробное описание, некоторые элементы нашёл в инете */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -16,7 +16,6 @@ body {
     color: #fff;
 }
 
-/* Логотип */
 .logo {
     font-size: 24px;
     font-weight: bold;
